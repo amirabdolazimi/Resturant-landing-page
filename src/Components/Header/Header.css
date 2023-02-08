@@ -1,0 +1,39 @@
+.header-section {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  height: 80vh;
+  background-position: top;
+  background-clip: content-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to top, #4d4c4c4a, #000000),
+    url("../../images/11.jpg");
+}
+.wellcomeText {
+  padding-top: 200px;
+  color: whitesmoke;
+  font-size: 27px;
+}
+.headerText {
+  padding-top: 15px;
+  color: whitesmoke;
+  font-size: 32px;
+}
+.orderFoodButton {
+  padding: 18px 27px;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  color: whitesmoke;
+  font-size: 15px;
+  border-radius: 5px;
+  transition: all ease-out 0.2s;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.orderFoodButton:hover {
+  background-color: rgb(245, 245, 245);
+  cursor: pointer;
+  color: rgb(235, 161, 24);
+}
