@@ -80,6 +80,9 @@
   .reserveDetails {
     grid-template-columns: 15px repeat(4, 1fr) 15px;
   }
+  .reserveImages img {
+    width: 55%;
+  }
 }
 
 @media screen and (max-width: 680px) {
@@ -93,6 +96,9 @@
   .connectionDetails {
     grid-column: 2 / span 3;
   }
+  .reserveImages img {
+    width: 60%;
+  }
 }
 @media screen and (max-width: 560px) {
   .reserveDetails {
@@ -102,5 +108,8 @@
   .locationsDetails,
   .connectionDetails {
     grid-column: auto;
+  }
+  .reserveImages img {
+    width: 65%;
   }
 }
