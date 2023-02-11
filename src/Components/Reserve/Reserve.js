@@ -1,7 +1,5 @@
 import "./Reserve.css";
-import firstReserve from "../../images/13.jpg";
-import secondReserve from "../../images/14.jpg";
-import thirdReserve from "../../images/24.jpg";
+import { reserveImages } from "../../imagesPaths";
 const Reserve = () => {
   return (
     <section className="reserveSection">
@@ -43,15 +41,13 @@ const Reserve = () => {
             <p>info@gmail.com</p>
           </div>
           <div className="reserveImages">
-            <div>
-              <img src={firstReserve} alt="firstReserve" />
-            </div>
-            <div>
-              <img src={secondReserve} alt="secondReserve" />
-            </div>
-            <div>
-              <img src={thirdReserve} alt="thirdReserve" />
-            </div>
+            {reserveImages.map((item) => {
+              return (
+                <div key={item.alt}>
+                  <img src={item.src} alt={item.alt} />
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>

@@ -5,7 +5,6 @@ import Header from "./Components/Header/Header";
 import Reserve from "./Components/Reserve/Reserve";
 import Services from "./Components/Services/Services";
 import Story from "./Components/Story/Story";
-
 function App() {
   return (
     <div className="App">
